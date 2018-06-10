@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="UTF-8"/>
+     <title>Kaique Jesus</title>
+     <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+     <link href="estilo.css" rel="stylesheet" type="text/css">
+     <link href="menu.css" rel="stylesheet" type="text/css">
+     <link href="animacao.css" rel="stylesheet" type="text/css">
+     <link href="slide.css" rel="stylesheet" type="text/css">
+     <link href="responsive.css" rel="stylesheet" type="text/css">     
+     <link rel="stylesheet" href="circle.css">
+     <script src="jquery-3.3.1.min.js"></script>
+     
+     <script>
+        $(function(e) {
+            $('.menu li:nth-child(2)').click(function(e) {
+                $('html, body').animate({
+                    scrollTop:$('#sobre').offset().top
+                }, 1000);
+            }); 
+        });
+    
+        $(function(e) {
+            $('.menu li:nth-child(3)').click(function(e) {
+                $('html, body').animate({
+                    scrollTop:$('#servicos').offset().top
+                }, 1000);
+            }); 
+        });
+         
+         $(function(e) {
+            $('.menu li:nth-child(4)').click(function(e) {
+                $('html, body').animate({
+                    scrollTop:$('#Linguagens').offset().top
+                }, 1000);
+            }); 
+        });
+         
+         $(function(e) {
+            $('.menu li:nth-child(5)').click(function(e) {
+                $('html, body').animate({
+                    scrollTop:$('#Portfolio').offset().top
+                }, 1000);
+            }); 
+        });
+         
+         $(function(e) {
+            $('.menu li:nth-child(6)').click(function(e) {
+                $('html, body').animate({
+                    scrollTop:$('#contato').offset().top
+                }, 1000);
+            }); 
+        });
+        
+     </script>
+     
+     
+    </head>
+      <body> 
+          <div class="divc">
+        <img  border="0" alt="Logo" src="imagens/Pagina/Logo4.png">
+          </div>
+        <div>
+            <div id="sidebar">
+                        <div id="nav-anchor"></div>
+            <nav class="menu">
+                <ul class="active">
+                <li class="current-item"><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Linguagens e ferramentas</a></li>
+                <li><a href="#">Portfolio</a></li>                
+                <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        
+
+
+
+
+
+
+
+
+
+        <section id="sobre">
+        <div class="div2">
+            <center><h1>Sobre</h1></center>
+            <p><img style="margin-left: 100" border="0" src="imagens/Pagina/Foto.png" width="250" height="300" align="right" alt="Foto">
+                <h3>Kaique Jesus do Nascimento</h3>
+                <h3>Programador | Analista de sistemas | Analista de suporte</h3><br>
+                Formação:
+                <li>Etec Centro Paula Souza - Informática com ênfase em programação</li>
+                <li>Anhembi Morumbi - Ciência da computação</li>
+                <li> Fundação Bradesco - Curso de programação em C#</li>
+                <br><br>
+                Experiências:
+                <li>Analista de Suporte Técnico - Microsoft</li><br><br>
+
+                Simplesmente viciado em linhas de código, fazer funcionar e apresentar um trabalho bem feito é o que me motiva na área de desenvolvimento.<br>
+                Busco atender todas as necessidades do cliente apresentando formas inovadoras de resolver determinada situação, demonstrando que a tecnologia veio para inovar e impulsionar o crescimento do seu negocio.
+                
+            </p> 
+            <br><br>
+        </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section id="servicos">
+        <div class="div3">
+          <div class="div4">
+           <center><h1>Serviços</h1>
+           <Table>
+                <tr>
+                     <td>
+                            <ul class="demo-1 effect">
+                                    <li>
+                                        <h2>Programação de Softwares</h2>
+                                        <p> <li>Desenvolvimento para empresas</li>
+                                            <li>Manutenção e modificações de softwares</li>
+                                            <li>Front e Back End</li>
+                                            <li>Banco de dados</li>
+                                        </p>
+                                    </li>
+                                    <img class="top" src="imagens/Servicos/DS.jpeg" WIDTH=300px alt="Desenvolvimento de Software"></li>
+                                </ul>
+                    <td>
+                            <ul class="demo-1 effect">
+                                    <li>
+                                            <h2>Web Designer</h2>
+                                            <p> <li>Criação de logos e imagens</li>
+                                                <li>Cuidamos do visual do seu sistema ou negocio, afinal o visual é a porta de entrada para inovação!</li>
+                                            </p>
+                                    <img class="top" src="imagens/Servicos/WD.jpeg" WIDTH=300px alt="Web Designer"></li>
+                                </ul>
+                </tr>
+                <tr>
+                    <td>
+                            <ul class="demo-1 effect">
+                                    <li>
+                                            <h2>Suporte e infraestrutura</h2>
+                                            <p> <li>Suporte para Software</li>
+                                                <li>Suporte para hardwares</li>
+                                                <li>Montagem e configuração de rede</li>
+                                            </p>
+                                    </li>
+                                    <img class="top" src="imagens/Servicos/Tec.jpeg" WIDTH=300px alt="Redes"></li>
+                                </ul>     
+                    <td>        
+                            <ul class="demo-1 effect">
+                                    <li>
+                                            <h2>Desenvolvimento de software para Web</h2>
+                                            <p> <li>Sites</li>
+                                                <li>E-commerce</li>
+                                                <li>Sistemas Web</li>
+                                            </p>
+                                    </li>
+                                    <img class="top"src="imagens/Servicos/Dsw.jpeg" WIDTH=300px alt="Desenvolvimento de Software Web"></li>
+                                </ul>                                   
+                </tr>
+            </Table>  
+        </center>       
+            </div>
+           </div> 
+        </section> 
+        
+
+
+
+
+
+
+
+
+
+
+        <section id="Linguagens">
+            <div class="div2">
+            <center><h1>Algumas tecnologias</h1></center> 
+            <Table>
+                <tr>
+                     <td>
+                        <IMG class="threed" src="imagens/Linguagens/java.jpeg" WIDTH=60%> 
+                        <div class="c100 p100">
+                            <span>100%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                    <td>
+                        <IMG class="threed" src="imagens/Linguagens/c.png" WIDTH=60%>
+                        <div class="c100 p100">
+                              <span>100%</span>
+                              <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                   </div>
+                               </div>
+                    <td>
+                        <IMG class="threed" src="imagens/Linguagens/sql.jpeg" WIDTH=60%> 
+                        <div class="c100 p100">
+                              <span>100%</span>
+                              <div class="slice">
+                                    <div class="bar"></div>
+                                    <div class="fill"></div>
+                                </div>
+                            </div>
+                                        
+                    <td>                                       
+                        <IMG class="threed" src="imagens/Linguagens/html.jpeg" WIDTH=60%>
+                        <div class="c100 p100">
+                                <span>100%</span>
+                                <div class="slice">
+                                       <div class="bar"></div>
+                                       <div class="fill"></div>
+                                    </div>
+                                </div>
+                </tr>
+                <tr>
+                    <td> 
+                        <IMG class="threed" src="imagens/Linguagens/js.jpeg" WIDTH=60%>
+                        <div class="c100 p50">
+                                <span>50%</span>
+                                <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                    <td> 
+                        <IMG class="threed" src="imagens/Linguagens/css.jpeg" WIDTH=60%>
+                        <div class="c100 p100">
+                                <span>100%</span>
+                                <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                    <td>  
+                        <IMG class="threed" src="imagens/Linguagens/ws.jpg" WIDTH=60%>
+                        <div class="c100 p100">
+                                <span>100%</span>
+                                <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                    <td>  
+                        <IMG class="threed" src="imagens/Linguagens/ps.jpg" WIDTH=60%>
+                        <div class="c100 p100">
+                                <span>100%</span>
+                                <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                </tr>
+            </Table>      
+            </div>  
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section id="Portfolio">
+          <div class="div3">
+              <div class="div4">
+              <center><h1>Portfolio</h1></center>
+              <center><h2>Hora de conhecer os meus projetos!</h2></center>
+              <!--
+                    <section class="galeria">
+                        <img class="foto" src="imagens/site1.png"/>
+                        <img class="foto" src="imagens/site2.png"/>
+                        <img class="foto" src="imagens/site3.png"/>
+                        <img class="foto" src="imagens/site4.png"/>
+                    </section>-->
+                    <p><h3>Xadrez</h3>
+                    <li>Nesse jogo de xadrez multplayer, após efetuar as jogadas desejadas é possível postar e marcar cada jogador no Twiter informando o placar final das rodadas jogadas.</li>
+                    </p>
+                    <div id="container">
+                            <input type="radio" id="foto1" name="grupo">
+                            <label for="foto1"><img class="grow" src="imagens/Xadrez/1.png"/></label>
+                            <input type="radio" id="foto2" name="grupo">
+                            <label for="foto2"><img class="grow" src="imagens/Xadrez/2.png"/></label>
+                            <input type="radio" id="foto3" name="grupo">
+                            <label for="foto3"><img class="grow" src="imagens/Xadrez/3.png"/></label>
+                            <input type="radio" id="foto4" name="grupo">
+                            <label for="foto4"><img class="grow" src="imagens/Xadrez/4.png"/></label>
+                            <input type="radio" id="foto5" name="grupo">  
+                            <label for="foto5"><img class="grow" src="imagens/Xadrez/5.png"/></label>
+                            <input type="radio" id="foto6" name="grupo">                            
+                            <label for="foto6"><img class="grow" src="imagens/Xadrez/6.png"/></label>
+                                                       
+                            
+                            <div class="principal">
+                                <div class="slide">
+                                     <img src="imagens/Xadrez/1.png" width="400px" height="400px"/>
+                                     <img src="imagens/Xadrez/2.png" width="400px" height="400px"/>
+                                     <img src="imagens/Xadrez/3.png" width="400px" height="400px"/>
+                                     <img src="imagens/Xadrez/4.png" width="400px" height="400px"/>
+                                     <img src="imagens/Xadrez/5.png" width="400px" height="400px"/>
+                                     <img src="imagens/Xadrez/6.png" width="400px" height="400px"/>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p><h3>Black Jack</h3>
+                            <li>O jogo Black Jack é jogado contra máquina, o dealer distribui inicialmente duas cartas para o jogador e duas cartas para si,
+                                 durante o jogo você pode pedir mais cartas ou parar até que a soma de pontos seja igual ou menor do que 21, caso estore o valor 
+                                 de 21 pontos, sinto muito, tente novamente!</li>
+                            </p>
+                            <div id="container2">
+                                    <input type="radio" id="foto7" name="grupo">
+                                    <label for="foto7"><img class="grow" src="imagens/BlackJack/0.png"/></label>
+                                    <input type="radio" id="foto8" name="grupo">
+                                    <label for="foto8"><img class="grow" src="imagens/BlackJack/1.png"/></label>
+                                    <input type="radio" id="foto9" name="grupo">
+                                    <label for="foto9"><img class="grow" src="imagens/BlackJack/2.png"/></label>
+                                    <input type="radio" id="foto10" name="grupo">
+                                    <label for="foto10"><img class="grow" src="imagens/BlackJack/3.png"/></label>
+                                                              
+                                    
+                                    <div class="principal2">
+                                        <div class="slide">
+                                             <img src="imagens/BlackJack/0.png" width="400px"/>
+                                             <img src="imagens/BlackJack/1.png" width="400px"/>
+                                             <img src="imagens/BlackJack/2.png" width="400px"/>
+                                             <img src="imagens/BlackJack/3.png" width="400px"/>
+                                        </div>
+                                    </div>
+                                </div>
+                </div>
+                <br><br>
+            </div>     
+        </section>
+   
+
+
+
+
+
+
+
+
+
+        
+            
+        <section id="contato">  
+                    <div class="contato">
+                        <br><br>
+                        <br><br>
+                        <fieldset>
+                            <center><h2>Contatos</h2>
+                            <p><img src="imagens/Contato/localizacao.png" width="20px"> São Paulo -SP<br></p>
+                            <p><img src="imagens/Contato/telefone.png" width="20px"> (11) 94978-6519 | (11) 46397040<br></p>
+                            <p><img src="imagens/Contato/email.png" width="20px"> kaique.jesus11@hotmail.com<br></p>
+                            <p><a href="https://www.facebook.com/kaique.jesus1"><img class="grow" src="imagens/Contato/facebook.png" width="20px"></a>Kaique Jesus<br></p>
+                        </fieldset></center>
+                        <br><br><br><br><br><br>
+                    </div>
+                    <div class="form">
+                            <br><br><br><br>
+                            <div id="area">
+                                    <form id="formulario" autocomplete="off">
+                                      <fieldset>
+                                        <center><h2>Deixe uma mensagem!</h2>
+                                        <label>Nome: </label><input class="campo_nome" type="text"><br><br>
+                                        <label>Email: </label><input class="campo_email" type="password"><br><br>
+                                        <label>Mensagem: </label><br><textarea class="msg" cols="35" rows="8"></textarea><br><br>   
+                                        <input class="btn_submit" type="submit" value="Enviar">
+                                      </fieldset></center>
+                                    </form>
+                                  </div>
+                        <br>
+        </div>
+        <div style="color: white; width: 1000px; clear: both;" >Kaique Jesus do Nascimento 03/06/2018</div>
+    </section>
+     </body>
+</html>

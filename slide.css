@@ -1,0 +1,97 @@
+    #container{
+        width: 400px;
+        height: auto;
+        margin: 0px auto;
+        background-color: #777
+    }
+
+    .principal{
+        width: 400px;
+        height: 410px;
+        overflow: hidden;
+    }
+
+
+    .galeria{
+        margin: 0px auto;
+        width: 600px;
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+        align-self: center;
+    }
+    
+    .foto{
+        position: absolute;
+        opacity: 0;
+        animation-name: animacao;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    .slide{
+        display: flex;
+        width: 400%;
+        transition: all .8s;
+    }
+
+    label img{
+        width: 66px;
+        cursor: pointer;
+        float: left;
+        opacity: 0.3;
+        transition: all .4s;
+    }
+
+    #container2{
+        width: 400px;
+        height: auto;
+        margin: 0px auto;
+        background-color: #777
+    }
+
+    .principal2{
+        width: 400px;
+        height: 312px;
+        overflow: hidden;
+    }
+
+
+    #foto2:checked ~ .principal .slide{
+        margin-left: -100%;
+    }
+
+    #foto3:checked ~ .principal .slide{
+        margin-left: -200%;
+    }
+
+    #foto4:checked ~ .principal .slide{
+        margin-left: -300%;
+    }
+
+    #foto5:checked ~ .principal .slide{
+        margin-left: -400%;
+    }
+
+    #foto6:checked ~ .principal .slide{
+        margin-left: -500%;
+    }
+
+    #foto8:checked ~ .principal2 .slide{
+        margin-left: -100%;
+    }
+
+    #foto9:checked ~ .principal2 .slide{
+        margin-left: -200%;
+    }
+
+    #foto10:checked ~ .principal2 .slide{
+        margin-left: -300%;
+    }
+
+    input[name="grupo"]{
+        display: none;
+    }
+
+    input[name="grupo"]:checked + label img{
+        opacity: .9;
+    }
